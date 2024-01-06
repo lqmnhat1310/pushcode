@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Le quang minh nhat">
+    <meta name="keywords" content="baitap">
+    <meta name="description" content="bai tap">
+    <title>baitap</title>
+    <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .clr{
+            clear: both;
+        }
+
+        .right{
+            border: 2px solid #999;
+            padding: 20px;
+            width: 600px;
+            margin: 30px auto;
+        }
+
+        #tab-D .tab-box{
+            border: 1px solid #999 ;
+            margin-top: -1px;
+        }
+
+        #tab-D .tab-box > a{
+            display: block;
+            background: url(img/tabD/arrow-right.png) 5px center no-repeat;
+            padding: 5px 5px 5px 30px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+
+        #tab-D .tab-box > a:hover,#tab-D .current > a{
+            background: url(img/tabD/arrow-down.png) 5px center no-repeat;
+            color: #00F;
+        }
+
+        #tab-D .tab-box > div{
+            display: none;
+
+        }
+
+        #tab-D .current > div{
+            display: block;
+            padding: 10px;
+            text-align: justify;
+            border-top: 1px solid #999;
+        }
+
+        
+
+    </style>
+
+</head>
+<body>
+        <div class="right">
+            <div id="tab-D">
+                <div class="tab-box">
+                    <a href="#">PHP Script</a>
+                    <div>PHP script. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+                <div class="tab-box current">
+                    <a href="#">AHP Script</a>
+                    <div>AHP script. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+                <div class="tab-box">
+                    <a href="#">JHP Script</a>
+                    <div>JHP script. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

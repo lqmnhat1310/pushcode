@@ -1,0 +1,13 @@
+.div{
+    border: 3px solid #c42929;
+    padding: 3px;
+    
+    /* display: inline; or float :left; de chuyen tu tag block sang inline */ 
+}
+
+.span{
+    border: 3px solid #8b2222;
+    padding: 3px;
+
+    /* display: block;  de chuyen tu tag inline sang block */
+} 

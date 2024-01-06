@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Le Quang Minh Nhat">
+    <meta name="keywords" content="baitap">
+    <meta name="description" content="bai tap ve nha cua lqmn">
+    <title>baitap</title>
+        <style type="text/css">
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* 01. img[src] định dạng các image có thuộc tính src */
+        /* img[src]{ border: 2px solid red;} */
+
+        /* 02. image[src= "small.gif"] định dạng các image có thuộc tính src bằng 1 giá trị nào đó */
+        /* img[src= "small.gif"]{ border: 2px solid red;} */
+
+        /* 03. image[class ~= "abc"] định dạng các image có thuộc tính class tồn tại 1 giá trị nào đó */
+        /* img[class ~= "abc"]{ border: 2px solid red;} */
+
+        /* 04. image[alt ="small"] định dạng cho thuộc tính alt tồn tại 1 giá trị nào đó (lưu ý dấu -) */
+        /* img[alt |="small"]{ border: 2px solid red;} */
+
+        /* 05. image[title *= "small"] định dạng các image có thuộc tính title chứa "small" */
+        /* img[title *= "small"]{ border: 2px solid red;} */
+
+        /* 06. image[title ^= "small"] định dạng các image có thuộc tính title bắt đầu là các giá trị "small" */
+        /* img[title ^= "small"]{ border: 2px solid red;} */
+
+        /* 07. image[title $= "small"] định dạng cho các image có thuộc tính title kết thúc là "small" */
+        /* img[title $= "small"]{ border: 2px solid red;} */
+
+        /* 08.  */
+        img[title = "small"][alt = "main-picture"]{ border: 2px solid red;}
+
+    </style>
+</head>
+<body>
+    <img src="asmall.gif" title="small" alt="small-main picture" class="abc xyz"/>
+    <img  title="small" alt="main-picture" class="abc"/>
+</body>
+</html>
